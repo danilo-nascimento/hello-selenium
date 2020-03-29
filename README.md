@@ -25,4 +25,5 @@ async function example() {
 
 example();
 ```
+
 - Mais exemplos na documentação: [https://www.selenium.dev/selenium/docs/api/javascript/](https://www.selenium.dev/selenium/docs/api/javascript/)
