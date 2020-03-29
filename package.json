@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danilo-nascimento/hello-selenium/issues"
   },
-  "homepage": "https://github.com/danilo-nascimento/hello-selenium#readme"
+  "homepage": "https://github.com/danilo-nascimento/hello-selenium#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
 }

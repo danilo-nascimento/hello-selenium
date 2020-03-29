@@ -12,3 +12,5 @@
 
 - Crie um diretório
 - Inicie um projeto NPM
+- Crie um arquivo index.js
+- Instale o pacote NPM selenium-webdriver
