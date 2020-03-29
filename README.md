@@ -12,5 +12,17 @@
 
 - Crie um diretório
 - Inicie um projeto NPM
-- Crie um arquivo index.js
 - Instale o pacote NPM selenium-webdriver
+- Crie um arquivo index.js para configurar o teste
+  
+```javascript
+const {Builder, By, Key} = require("selenium-webdriver")
+async function example() {
+    let driver = await new Builder().forBrowser("firefox").build()
+    await driver.get("https://google.com")
+    await driver.findElement(By.name("q")).sendKeys("Eeeita mlk", Key.RETURN);
+}
+
+example();
+```
+- Mais exemplos na documentação: [https://www.selenium.dev/selenium/docs/api/javascript/](https://www.selenium.dev/selenium/docs/api/javascript/)
