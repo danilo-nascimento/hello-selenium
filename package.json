@@ -1,0 +1,19 @@
+{
+  "name": "hello-world-selenium",
+  "version": "1.0.0",
+  "description": "- Procure pelo pacote Selenium Web Driver em [https://www.npmjs.com/](https://www.npmjs.com/)\r - Baixe os drivers desejados. É recomendado o **geckodriver**\r - Crie um diretório **seleniumWebDrivers** em C: para salvar os drivers\r - Adicione o caminho do diretório ao **PATH** do Windows:![Path do Windows](/src/001.png?raw=true)\r - Para confirmar que o Driver o PATH foi configurado corretamente, execute no prompt start \\<driver name\\>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-nascimento/hello-selenium.git"
+  },
+  "author": "Danilo Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilo-nascimento/hello-selenium/issues"
+  },
+  "homepage": "https://github.com/danilo-nascimento/hello-selenium#readme"
+}
