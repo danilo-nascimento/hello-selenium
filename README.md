@@ -31,4 +31,5 @@ example();
 ## 003 Configurando o Driver
 
 - É possível definir as configurações dos Browsers. Exemplos:
-  - Definir o destino dos arquivos baixados com um diretório padrão ou pergunta ao usuário
+  - Definir o destino dos arquivos baixados com um diretório padrão ou perguntar ao usuário
+  - Definir tipos de arquivos que podem ser baixados automaticamente
