@@ -33,3 +33,12 @@ example();
 - É possível definir as configurações dos Browsers. Exemplos:
   - Definir o destino dos arquivos baixados com um diretório padrão ou perguntar ao usuário
   - Definir tipos de arquivos que podem ser baixados automaticamente
+  - Definir um perfil para o Browser que será utilizado com Selenium
+    - No caso do firefox, pesquise no Windows por **Run** e depois execute **firefox --ProfileManager**
+    - Crie o perfil desejado com todas as configurações necessárias
+    - Copie o diretório do Perfil criado para o diretório de configuração do Driver
+    - Passe o caminho do diretório copiado para configurar as opções:
+
+```javascript
+options.setProfile( path.resolve(__dirname, 'firefox-selenium-profile') )
+```
