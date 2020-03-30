@@ -37,8 +37,5 @@ example();
     - No caso do firefox, pesquise no Windows por **Run** e depois execute **firefox --ProfileManager**
     - Crie o perfil desejado com todas as configurações necessárias
     - Copie o diretório do Perfil criado para o diretório de configuração do Driver
-    - Passe o caminho do diretório copiado para configurar as opções:
-
-```javascript
-options.setProfile( path.resolve(__dirname, 'firefox-selenium-profile') )
-```
+    - Passe o caminho do diretório copiado para configurar as opções:  options.setProfile( path.resolve(__dirname, 'firefox-selenium-profile') )
+    - Configurar um proxy
