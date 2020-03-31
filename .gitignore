@@ -113,3 +113,7 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
+# Firefox Profile
+
+configurar-driver/firefox-selenium-profile

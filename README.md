@@ -27,3 +27,7 @@ example();
 ```
 
 - Mais exemplos na documentação: [https://www.selenium.dev/selenium/docs/api/javascript/](https://www.selenium.dev/selenium/docs/api/javascript/)
+
+## 003 Interação com Web Elements
+
+- Sempre utilize funções async quando for carregar uma página
