@@ -31,3 +31,4 @@ example();
 ## 003 Interação com Web Elements
 
 - Sempre utilize funções async quando for carregar uma página
+- Site para treinar Selenium: [https://rori4.github.io/selenium-practice/](https://rori4.github.io/selenium-practice/)
